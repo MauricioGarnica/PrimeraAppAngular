@@ -1,0 +1,13 @@
+<form>
+    <div class="form-group">
+        <label for="txtNumberA" class="form-label">Number A:</label>
+        <input type="number" class="form-control" name="txtNumberA" id="txtNumberA" [(ngModel)]="txtNumberA">
+    </div>
+    <div class="form-group">
+        <label for="txtNumberB" class="form-label">Number B:</label>
+        <input type="number" class="form-control" name="txtNumberB" id="txtNumberB" [(ngModel)]="txtNumberB">
+    </div>
+    <div class="form-group pt-2">
+        <button class="btn btn-primary" (click)="sumTwoNumbers()">Sum</button>
+    </div>
+</form>

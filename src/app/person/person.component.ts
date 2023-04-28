@@ -5,4 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './person.component.html',
   styleUrls: ['./person.component.css'],
 })
-export class PersonComponent {}
+export class PersonComponent {
+  name: string = 'Juan';
+  lastname: string = 'Perez';
+  age: number = 28;
+  // private age: number = 28;
+
+  // getAge():number {
+  //   return this.age;
+  // }
+}

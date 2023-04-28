@@ -1,0 +1,9 @@
+<div class="container-fluid">
+    <div class="row">
+        <h1>Calculator App</h1>
+        <div class="col-sm-12">
+            <app-calculator-form (resolveSum)="resolveSum($event)"></app-calculator-form>
+        </div>
+    </div>
+    <app-calculator-result [result]="result"></app-calculator-result>
+</div>
